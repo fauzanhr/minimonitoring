@@ -1,0 +1,5 @@
+#! /bin/bash
+
+date >> 'test.txt'
+
+curl "add website url" -g  | dos2unix >> /c/test.txt
